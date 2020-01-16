@@ -1,0 +1,24 @@
+* div
+** div1 = volume (Bethe)
+*** div2 = preface | sigla | text (Bethe)
+**** div3 = book (Pollux, Hss, Bethe)
+***** div4 = prologue | !index of contentes! | main-part | epilogue (Pollux?, Hss, [not typographically marked in Bethe])
+* ab = typographically marked, not enummerated paragraph in Bethe
+* pb = page-breaks in Bethe
+* lb = line-breaks in Bethe
+* milestone @unit=section (in Bethes edn. < Bekker < Dindorf < Lederlin-Hemsterhuis)
+* persName
++ @ref = CTS-urn
++ @nymRef = translitterated form with specfications for dismabiguation
++ ?@type = ? [an ontology specifically for names/functions in Pollux?
+  e.g. Aischylos can depending from context be "author/source" or
+  "historical person"]
+* orgName
++ @type = authors-of-genre (perhaps better only "genre") | ethnic |
+  undefined (ἔνιοι) | ?categories treated as "anonymus speakers" in
+  \cite{matthaios_pollux_2013} | what to do with οἱ δέ?
++ @nymRef = english descriptive terms -- ontology to be defined!
+** rs in <orgName>?
+e.g.: "ἐκ τούτου δὲ καὶ ὁ κατάγελως καταχήνη εἴρηται παρὰ <orgName
+type="authors-of-genre" nymRef="comedy">τοῖς κωμικοῖς</orgName> καὶ
+χάνος δὲ παρ᾽ <orgName><rs>αὐτοῖς</rs></orgName> τὸ στόμα."
