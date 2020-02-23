@@ -1,19 +1,46 @@
-* div
+* Levels of Structure in Pollux' Onomasticon 
+** Lingustic Elements 1 Level
+- words
+- punctuation
+** Linguistic Elements 2 Level
+- words
+- phrases
+- clauses
+- sentences/periods
+** Lexicographic Elements 1 Level
+- named/cited linguistic elements
+  - TEI: <w type="n">, <phr type="n">
+  - TEI: <w type="c">, <phr type="c"> (for elements attributed explicitly to
+    sources, without being an exact quotation)
+  - TEI: <w type="q">, <phr type="q"> (for elements attributed explicitly to
+    sources, being an exact quotation)
+- "named entities" (person names, place names, titles)
+- used linguistic elements
+  - common words
+  - lexicographic terms
+** Lexicographic Elements 2 Level
+- onomasiological fields
+  - names of onomasiologcial fields
+  - members of onomasiological fields
+    - single elements
+    - lists
+* Structural Elements in the Edition of Bethe
+** div
 ** div1 = volume (Bethe)
 *** div2 = preface | sigla | text (Bethe)
 **** div3 = book (Pollux, Hss, Bethe)
 ***** div4 = prologue | !index of contentes! | main-part | epilogue (Pollux?, Hss, [not typographically marked in Bethe])
-* ab = typographically marked, not enummerated paragraph in Bethe
-* pb = page-breaks in Bethe
-* lb = line-breaks in Bethe
-* milestone @unit=section (in Bethes edn. < Bekker < Dindorf < Lederlin-Hemsterhuis)
-* persName
+** ab = typographically marked, not enummerated paragraph in Bethe
+** pb = page-breaks in Bethe
+** lb = line-breaks in Bethe
+** milestone @unit=section (in Bethes edn. < Bekker < Dindorf < Lederlin-Hemsterhuis)
+** persName
 + @ref = CTS-urn
 + @nymRef = translitterated form with specfications for dismabiguation
 + ?@type = ? [an ontology specifically for names/functions in Pollux?
   e.g. Aischylos can depending from context be "author/source" or
   "historical person"]
-* orgName
+** orgName
 + @type = authors-of-genre (perhaps better only "genre") | ethnic |
   undefined (ἔνιοι) | ?categories treated as "anonymus speakers" in
   \cite{matthaios_pollux_2013} | what to do with οἱ δέ?
